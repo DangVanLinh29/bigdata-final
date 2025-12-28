@@ -1,0 +1,51 @@
+data/
+snapshots/
+pretrain_model/*
+_temp/*
+data/*
+logs/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+.vscode/
+pretrain_model
+data
+_temp
+
+__pycache__/
+# Chặn các file trọng số và model
+MOVE/logs_debug/resnet50/default/2-way-2-shot/group0
+*.pth
+*.pt
+*.bin
+*.tar.gz
+MOVE/data/
+
+# Chặn dữ liệu video và ảnh
+data/
+ref_videos/
+reference_data/
+mapreduce_data/videos/
+*.mp4
+*.avi
+*.jpg
+*.png
+
+*.dll
+
+# Chặn các file tạm
+__pycache__/
+.vscode/
+
+# Chặn thư mục môi trường ảo
+MOVE/venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/

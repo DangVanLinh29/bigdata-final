@@ -1,0 +1,70 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Test MOVE (Inference Local)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/MOVE/tools/inference.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/MOVE",
+            "env": {
+                "LOCAL_RANK": "0",
+                "MASTER_ADDR": "localhost",
+                "MASTER_PORT": "12355",
+                "WORLD_SIZE": "1",
+                "RANK": "0"
+            },
+            "args": [
+                "--group", "0",
+                "--num_workers", "0",           
+                "--num_episodes", "50",         
+                "--backbone", "resnet50",
+                "--setting", "default",
+                "--support_frames", "3",        
+                "--num_ways", "2",              
+                "--num_shots", "2",          
+                "--snapshot", "logs_debug/resnet50/default/2-way-2-shot/group0/latest_checkpoint.pth",
+                
+                "--overwrite"                   
+            ],
+            "justMyCode": false
+        },
+        {
+            "name": "Train MOVE (Demo Local)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/MOVE/tools/train.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/MOVE",
+            "env": {
+                "LOCAL_RANK": "0",
+                "MASTER_ADDR": "localhost",
+                "MASTER_PORT": "12355",
+                "WORLD_SIZE": "1",
+                "RANK": "0"
+            },
+            "args": [
+                "--batch_size",
+                "2",
+                "--num_workers",
+                "0",
+                "--total_episodes",
+                "100",
+                "--snapshot_dir",
+                "logs_debug",
+                "--backbone",
+                "resnet50",
+                "--setting",
+                "default",
+                "--support_frames",
+                "3",
+                "--save_interval",
+                "50",
+                "--print_interval",
+                "10"
+            ],
+            "justMyCode": false
+        }
+    ]
+}

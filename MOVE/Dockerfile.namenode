@@ -1,0 +1,30 @@
+# LƯU Ý: Dòng này khác với nodemanager (dùng namenode image)
+FROM bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+
+# --- PHẦN DƯỚI COPY Y HỆT DOCKERFILE.NODEMANAGER ---
+# 1. FIX LỖI 404 DEBIAN STRETCH
+RUN echo "deb http://archive.debian.org/debian stretch main" > /etc/apt/sources.list && \
+    echo "deb http://archive.debian.org/debian-security stretch/updates main" >> /etc/apt/sources.list && \
+    echo "deb http://archive.debian.org/debian stretch-backports main" >> /etc/apt/sources.list && \
+    echo 'Acquire::Check-Valid-Until "false";' > /etc/apt/apt.conf.d/99no-check-valid-until
+
+# 2. CÀI ĐẶT CÔNG CỤ CƠ BẢN
+RUN apt-get update && apt-get install -y --allow-unauthenticated \
+    wget \
+    bzip2 \
+    libgl1-mesa-glx \
+    libglib2.0-0 \
+    && rm -rf /var/lib/apt/lists/*
+
+# 3. CÀI ĐẶT MINICONDA
+RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-py39_4.12.0-Linux-x86_64.sh -O ~/miniconda.sh && \
+    /bin/bash ~/miniconda.sh -b -p /opt/conda && \
+    rm ~/miniconda.sh
+
+ENV PATH="/opt/conda/bin:${PATH}"
+
+# 4. CÀI ĐẶT THƯ VIỆN AI
+RUN pip install --no-cache-dir numpy opencv-python-headless
+RUN pip install --no-cache-dir torch torchvision --index-url https://download.pytorch.org/whl/cpu
+
+WORKDIR /app

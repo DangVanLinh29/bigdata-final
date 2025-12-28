@@ -1,0 +1,70 @@
+version: "3"
+services:
+  namenode:
+    build:
+      context: .
+      dockerfile: Dockerfile.namenode
+    image: my-hadoop-namenode-ai
+    container_name: namenode
+    restart: always
+    ports:
+      - 9870:9870
+      - 9000:9000
+    volumes:
+      - hadoop_namenode:/hadoop/dfs/name
+      - ./mapreduce_code:/app/code
+      - ./input_list.txt:/app/input_list.txt
+      - ./mapreduce_data:/app/data
+      - ./libs:/app/libs
+    environment:
+      - CLUSTER_NAME=test
+    env_file:
+      - ./hadoop.env
+
+  datanode:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: datanode
+    restart: always
+    volumes:
+      - hadoop_datanode:/hadoop/dfs/data
+    environment:
+      SERVICE_PRECONDITION: "namenode:9870"
+    env_file:
+      - ./hadoop.env
+  
+  resourcemanager:
+    image: bde2020/hadoop-resourcemanager:2.0.0-hadoop3.2.1-java8
+    container_name: resourcemanager
+    restart: always
+    ports:
+      - 8088:8088
+    environment:
+      SERVICE_PRECONDITION: "namenode:9000 namenode:9870 datanode:9864"
+    env_file:
+      - ./hadoop.env
+
+  nodemanager:
+    # --- PHẦN SỬA ĐỔI QUAN TRỌNG ---
+    # Thay vì dùng image gốc, ta build từ Dockerfile.nodemanager
+    build:
+      context: .
+      dockerfile: Dockerfile.nodemanager
+    image: my-hadoop-nodemanager-ai # Đặt tên cho image mới
+    # -------------------------------
+    container_name: nodemanager
+    restart: always
+    environment:
+      SERVICE_PRECONDITION: "namenode:9000 namenode:9870 datanode:9864 resourcemanager:8088"
+    env_file:
+      - ./hadoop.env
+    # Mount thư mục để NodeManager nhìn thấy dữ liệu
+    volumes:
+      - ./mapreduce_data:/app/data
+      - ./mapreduce_code:/app/code
+      # Nếu em nhất quyết muốn thử GPU (dù rất khó trên base image này), bỏ comment dòng dưới:
+      # - /usr/lib/wsl:/usr/lib/wsl 
+      # - /usr/lib/x86_64-linux-gnu/libcuda.so.1:/usr/lib/x86_64-linux-gnu/libcuda.so.1
+
+volumes:
+  hadoop_namenode:
+  hadoop_datanode:

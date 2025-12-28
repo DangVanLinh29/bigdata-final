@@ -1,0 +1,1453 @@
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 5
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":5,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 5
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":5,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 5
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":5,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 5
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":5,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 5
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":5,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 5
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":5,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 5
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":5,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 5
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":5,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 5
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":5,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 5
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":5,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 1
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":1,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 1
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":1,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 1
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":1,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 1
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":1,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 1
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":1,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 1
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":1,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 2
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":2,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+Episode [10/100], Mask CE Loss: 0.5757, Proposal CE Loss: 0.6667, Mask IoU Loss: 0.8682, Proposal IoU Loss: 0.9849, Motion Cls Loss: 2.6714, GT CE Loss: 0.6468, GT IoU Loss: 0.9891, GT Motion Cls Loss: 2.6645, Support Motion Cls Loss: 4.7134, Object Cls Loss: 0.0000, Motion Cls Detailed: 0.0000, Motion_Appear_Active: No, Total Loss: 11.9802, LR: 0.000000, ETA: 0:33:42
+Episode [20/100], Mask CE Loss: 0.5622, Proposal CE Loss: 0.6635, Mask IoU Loss: 0.8582, Proposal IoU Loss: 0.9841, Motion Cls Loss: 2.6824, GT CE Loss: 0.6389, GT IoU Loss: 0.9890, GT Motion Cls Loss: 2.6124, Support Motion Cls Loss: 4.6188, Object Cls Loss: 0.0000, Motion Cls Detailed: 0.0000, Motion_Appear_Active: No, Total Loss: 11.9037, LR: 0.000000, ETA: 0:31:06
+Episode [30/100], Mask CE Loss: 0.4916, Proposal CE Loss: 0.6558, Mask IoU Loss: 0.7759, Proposal IoU Loss: 0.9841, Motion Cls Loss: 2.4786, GT CE Loss: 0.6181, GT IoU Loss: 0.9878, GT Motion Cls Loss: 2.3884, Support Motion Cls Loss: 4.5630, Object Cls Loss: 0.0000, Motion Cls Detailed: 0.0000, Motion_Appear_Active: No, Total Loss: 11.2932, LR: 0.000001, ETA: 0:27:12
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 5
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 10
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":5,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":10,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 5
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 200
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":5,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":200,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 2
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 10
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":2,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":10,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+Episode [10/100], Mask CE Loss: 0.5757, Proposal CE Loss: 0.6667, Mask IoU Loss: 0.8682, Proposal IoU Loss: 0.9849, Motion Cls Loss: 2.6714, GT CE Loss: 0.6468, GT IoU Loss: 0.9891, GT Motion Cls Loss: 2.6644, Support Motion Cls Loss: 4.7135, Object Cls Loss: 0.0000, Motion Cls Detailed: 0.0000, Motion_Appear_Active: No, Total Loss: 11.9802, LR: 0.000000, ETA: 0:30:45
+Episode [20/100], Mask CE Loss: 0.5621, Proposal CE Loss: 0.6635, Mask IoU Loss: 0.8582, Proposal IoU Loss: 0.9841, Motion Cls Loss: 2.6827, GT CE Loss: 0.6389, GT IoU Loss: 0.9890, GT Motion Cls Loss: 2.6124, Support Motion Cls Loss: 4.6188, Object Cls Loss: 0.0000, Motion Cls Detailed: 0.0000, Motion_Appear_Active: No, Total Loss: 11.9039, LR: 0.000000, ETA: 0:28:23
+Episode [30/100], Mask CE Loss: 0.4916, Proposal CE Loss: 0.6557, Mask IoU Loss: 0.7759, Proposal IoU Loss: 0.9841, Motion Cls Loss: 2.4787, GT CE Loss: 0.6181, GT IoU Loss: 0.9878, GT Motion Cls Loss: 2.3884, Support Motion Cls Loss: 4.5626, Object Cls Loss: 0.0000, Motion Cls Detailed: 0.0000, Motion_Appear_Active: No, Total Loss: 11.2933, LR: 0.000001, ETA: 0:24:40
+Episode [40/100], Mask CE Loss: 0.5438, Proposal CE Loss: 0.6441, Mask IoU Loss: 0.9046, Proposal IoU Loss: 0.9820, Motion Cls Loss: 2.4637, GT CE Loss: 0.5891, GT IoU Loss: 0.9878, GT Motion Cls Loss: 2.2919, Support Motion Cls Loss: 4.3170, Object Cls Loss: 0.0000, Motion Cls Detailed: 0.0000, Motion_Appear_Active: No, Total Loss: 11.3201, LR: 0.000001, ETA: 0:21:28
+Episode [50/100], Mask CE Loss: 0.4813, Proposal CE Loss: 0.6286, Mask IoU Loss: 0.8519, Proposal IoU Loss: 0.9840, Motion Cls Loss: 2.5808, GT CE Loss: 0.5480, GT IoU Loss: 0.9899, GT Motion Cls Loss: 2.2003, Support Motion Cls Loss: 4.0347, Object Cls Loss: 0.0000, Motion Cls Detailed: 0.0000, Motion_Appear_Active: No, Total Loss: 11.1779, LR: 0.000001, ETA: 0:19:01
+Episode [60/100], Mask CE Loss: 0.3721, Proposal CE Loss: 0.6105, Mask IoU Loss: 0.7117, Proposal IoU Loss: 0.9845, Motion Cls Loss: 2.6320, GT CE Loss: 0.5053, GT IoU Loss: 0.9915, GT Motion Cls Loss: 2.3495, Support Motion Cls Loss: 3.4806, Object Cls Loss: 0.0000, Motion Cls Detailed: 0.0000, Motion_Appear_Active: No, Total Loss: 11.0701, LR: 0.000001, ETA: 0:15:01
+Episode [70/100], Mask CE Loss: 0.2744, Proposal CE Loss: 0.5916, Mask IoU Loss: 0.5742, Proposal IoU Loss: 0.9884, Motion Cls Loss: 2.1246, GT CE Loss: 0.4551, GT IoU Loss: 0.9915, GT Motion Cls Loss: 1.9640, Support Motion Cls Loss: 3.2873, Object Cls Loss: 0.0000, Motion Cls Detailed: 0.0000, Motion_Appear_Active: No, Total Loss: 9.8768, LR: 0.000001, ETA: 0:11:06
+Episode [80/100], Mask CE Loss: 0.2156, Proposal CE Loss: 0.5706, Mask IoU Loss: 0.5073, Proposal IoU Loss: 0.9900, Motion Cls Loss: 1.6700, GT CE Loss: 0.4080, GT IoU Loss: 0.9912, GT Motion Cls Loss: 1.6025, Support Motion Cls Loss: 3.0601, Object Cls Loss: 0.0000, Motion Cls Detailed: 0.0000, Motion_Appear_Active: No, Total Loss: 8.8682, LR: 0.000002, ETA: 0:07:19
+Episode [90/100], Mask CE Loss: 0.2468, Proposal CE Loss: 0.5478, Mask IoU Loss: 0.6749, Proposal IoU Loss: 0.9891, Motion Cls Loss: 1.2768, GT CE Loss: 0.3554, GT IoU Loss: 0.9913, GT Motion Cls Loss: 1.1740, Support Motion Cls Loss: 2.4743, Object Cls Loss: 0.0000, Motion Cls Detailed: 0.0000, Motion_Appear_Active: No, Total Loss: 8.1694, LR: 0.000002, ETA: 0:03:39
+Episode [100/100], Mask CE Loss: 0.1965, Proposal CE Loss: 0.5226, Mask IoU Loss: 0.6189, Proposal IoU Loss: 0.9877, Motion Cls Loss: 1.0688, GT CE Loss: 0.3003, GT IoU Loss: 0.9897, GT Motion Cls Loss: 0.9677, Support Motion Cls Loss: 2.5866, Object Cls Loss: 0.0000, Motion Cls Detailed: 0.0000, Motion_Appear_Active: No, Total Loss: 7.5653, LR: 0.000002, ETA: 0:00:00
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 3
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 50
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":3,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":50,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 3
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 50
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":3,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":50,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 3
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 50
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":3,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":50,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
+==================================================
+Running parameters:
+==================================================
+batch_size: 2
+group: 0
+lr: 1e-05
+total_episodes: 100
+support_frames: 3
+query_frames: 5
+num_ways: 2
+num_shots: 2
+num_workers: 0
+snapshot_dir: logs_debug
+save_interval: 50
+print_interval: 10
+validate_interval: 4000
+ce_loss_weight: 1.0
+iou_loss_weight: 1.0
+cls_loss_weight: 1.0
+orth_loss_weight: 1.0
+obj_cls_loss_weight: 1.0
+motion_cls_loss_weight: 1.0
+setting: default
+resume: False
+warmup_episodes: 500
+loss_type: default
+backbone: resnet50
+motion_appear_orth: False
+==================================================
+
+Full configuration:
+{
+    "batch_size":2,
+    "group":0,
+    "lr":1e-05,
+    "total_episodes":100,
+    "support_frames":3,
+    "query_frames":5,
+    "num_ways":2,
+    "num_shots":2,
+    "num_workers":0,
+    "snapshot_dir":"logs_debug",
+    "save_interval":50,
+    "print_interval":10,
+    "validate_interval":4000,
+    "ce_loss_weight":1.0,
+    "iou_loss_weight":1.0,
+    "cls_loss_weight":1.0,
+    "orth_loss_weight":1.0,
+    "obj_cls_loss_weight":1.0,
+    "motion_cls_loss_weight":1.0,
+    "setting":"default",
+    "resume":false,
+    "warmup_episodes":500,
+    "loss_type":"default",
+    "backbone":"resnet50",
+    "motion_appear_orth":false
+}
+==================================================
+
